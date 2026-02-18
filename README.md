@@ -1,5 +1,5 @@
 # LecRec
-**LecRec** is a `python` script that automatically records lectures from YouTube stream. **Unlike you, it has perfect attendance score**.
+**LecRec** is a `python` script that automatically records lectures from `YouTube` stream. **Unlike you, it has perfect attendance score**.
 
 ### Installation
 To run the script, you need to install `yt-dlp`. The simplest way is to set up `venv` environment and install it there:
@@ -20,3 +20,9 @@ Make sure you are in the `venv` environment and run the main script:
 $ python3 lec_rec.py
 ```
 To run the script in the background, use **systemd / cron / tmux**.
+
+### Troubleshooting
+If something does not work, it is likely that `YouTube` updated and broke something. Try to update `yt-dlp` inside your `venv` environment:
+```bash
+$ pip install yt-dlp
+```
