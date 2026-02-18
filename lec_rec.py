@@ -90,6 +90,7 @@ def record_lecture(lecture_conf):
 def check_schedule():
     print_title()
     print("[SYSTEM] Starting...")
+    print("[SYSTEM] Waiting for lectures...")
     
     while True:
         try:
@@ -99,8 +100,6 @@ def check_schedule():
 
             now = datetime.now()
             current_day = now.strftime("%A")
-
-            print("[SYSTEM] Waiting for lectures...")
             
             # Check if it is time to record any lecture
             for lecture in schedule:
