@@ -1,0 +1,26 @@
+[
+    {
+        "name": "TAL",
+        "url": "https://www.youtube.com/watch?v=VIDEO_ID_1",
+        "day": "Tuesday",
+        "start_time": "08:10",
+        "end_time": "10:50",
+        "folder": "recordings/TAL"
+    },
+    {
+        "name": "KO",
+        "url": "https://www.youtube.com/watch?v=VIDEO_ID_1",
+        "day": "Tuesday",
+        "start_time": "11:40",
+        "end_time": "14:20",
+        "folder": "recordings/KO"
+    },
+    {
+        "name": "NASA",
+        "url": "https://www.youtube.com/watch?v=vytmBNhc9ig",
+        "day": "Wednesday",
+        "start_time": "10:00",
+        "end_time": "10:05",
+        "folder": "recordings/NASA"
+    }
+]
